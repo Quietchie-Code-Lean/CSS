@@ -2,8 +2,7 @@ body{
     background-color: grey;
     color: black;
     font-family: fantasy;
-    margin: 0;
-
+    margin: 0; 
 }
 .hero{
     align-items: start;

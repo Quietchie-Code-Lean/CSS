@@ -1,0 +1,43 @@
+body,
+ menu{
+    margin: 0;
+}
+
+menu{
+    background-color: bisque;
+    width: 20em; /* asignamos un width al elemento "Menu" */
+    min-height: 100vh; /*Estamos asignando min-height de 100 % del viewport (ViewHieght)*/
+}
+
+menu ul{
+    margin: 0;
+    padding: 0;
+    display: flex;  /*todos los elementos dentro de ul se muestran como elementos flex*/
+    flex-direction: column; /*Cambiamos la propiedad por defecto de flex(row) por "column" para que se muestre un menu vertical*/
+}
+
+menu li{
+
+    padding: 1em;
+    list-style: none; /*elimina el estilo de los elementos li que vienen por defecto*/
+}
+
+menu a{
+    text-decoration: none; /*elimina el estilo de los elementos ancla que vienen por defecto*/
+    color: black;
+}
+
+menu a:hover{
+    color: indianred;
+}
+.main {
+    display: flex; 
+}
+
+.main h1 {
+    text-align: center;
+}
+.main section {
+    padding-left: 2%;
+    padding-right: 2%;
+}

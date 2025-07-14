@@ -1,0 +1,28 @@
+body, menu {
+    margin: 0;
+}
+
+.menu {
+    background-color: bisque;
+}
+
+.ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.li {
+
+    padding: 1em;
+    list-style: none;
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+}
+
+.a:hover{
+    color: indianred;
+}

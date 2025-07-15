@@ -1,0 +1,30 @@
+body, section {
+    
+}
+
+.flex-container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center; 
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    height: 20em;
+    width: 20em;
+    border: solid 1px black;
+    padding: 1%;
+}
+
+.flex-container-2{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    border: solid 1px black;
+    height: 20em;
+}
+.flex-item-2 {
+    display: flex;
+}

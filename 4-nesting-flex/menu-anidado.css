@@ -1,0 +1,29 @@
+body, menu {
+    margin: 0;
+}
+
+menu {
+    background-color: darkorange;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+menu li{
+    list-style: none;
+    padding: 1em;
+}
+menu ul{
+    display: flex;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+menu a:hover {
+    background-color: ghostwhite;
+}

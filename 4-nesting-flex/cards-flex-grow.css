@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: palegoldenrod;
+}
+.cards {
+    display: flex;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 12em;
+    border: solid 1px black;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.card-body {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    flex-grow: 1;
+}

@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    background-color: orangered;
+    border: solid black 1.5px;
+    margin:2px;
+    flex-grow: 1;
+}
+.item-2 {
+    flex-grow: 3;
+}
+.item-3 {
+    flex-grow: 4;
+}
